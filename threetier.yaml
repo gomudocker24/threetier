@@ -76,7 +76,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: "gomudocker24/backendthreetier"
+        image: "gomudocker24/frontendthreetier"
         ports:
           - name: http
             containerPort: 80
